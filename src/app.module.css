@@ -20,6 +20,16 @@
   padding: 2em;
 }
 
+.cardList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1em;
+  & img {
+    display: block;
+  }
+}
+
 .readTheDocs {
   color: #888;
 }
